@@ -94,7 +94,7 @@ export default function PasswordGenerator() {
       <h2 className="text-[#817D92] font-bold mb-2 text-[24px]">Password Generator</h2>
 
       <div className="bg-[#24232C] p-4 rounded mt-6 flex justify-between items-center w-[540px] max-sm:w-[343px] max-sm:h-[80px]">
-        <span className="block text-lg font-mono text-white break-all">{password}</span>
+        <span className="block text-[32px] font-mono text-white break-all ">{password}</span>
 
         <button
           onClick={handleCopy}
