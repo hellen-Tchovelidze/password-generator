@@ -93,7 +93,7 @@ export default function PasswordGenerator() {
     <div className="flex justify-center items-center flex-col h-screen bg-[#08070B] font-semibold">
       <h2 className="text-[#817D92] font-bold mb-2 text-[24px]">Password Generator</h2>
 
-      <div className="bg-gray-900 p-4 rounded mt-6 flex justify-between items-center w-[540px] max-sm:w-[343px] max-sm:h-[80px]">
+      <div className="bg-[#24232C] p-4 rounded mt-6 flex justify-between items-center w-[540px] max-sm:w-[343px] max-sm:h-[80px]">
         <span className="block text-lg font-mono text-white break-all">{password}</span>
 
         <button
