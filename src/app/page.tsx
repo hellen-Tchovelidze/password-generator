@@ -113,8 +113,8 @@ export default function PasswordGenerator() {
       <div className="bg-[#24232C] w-[540px] p-6 mt-6  max-sm:w-[343px]">
         <div className="mb-6">
           <div className="flex justify-between items-center text-white">
-            <label className="text-white">Character Length</label>
-            <label className="block mb-2 text-lg cursor-pointer">{length}</label>
+            <label className="text-white text-[18px] font-semibold">Character Length</label>
+            <label className="block mb-2 text-lg cursor-pointer text-[#A4FFAF] text-[32px] font-bold">{length}</label>
           </div>
           <input
             type="range"
